@@ -54,7 +54,7 @@ export function DashboardNavbar() {
               <Typography
                 variant="small"
                 color="blue-gray"
-                className="font-normal opacity-50 transition-all"
+                className="font-normal opacity-50 transition-all no-pointer"
               >
                 {layout}
               </Typography>
@@ -62,7 +62,7 @@ export function DashboardNavbar() {
             <Typography
               variant="small"
               color="blue-gray"
-              className="font-normal"
+              className="font-normal no-pointer"
             >
               {page}
             </Typography>
@@ -101,11 +101,13 @@ export function DashboardNavbar() {
             </IconButton>
           </Link>
           <Menu>
-            <MenuHandler>
+            {/* <MenuHandler>
               <IconButton variant="text" color="blue-gray">
                 <BellIcon className="h-5 w-5 text-blue-gray-500" />
               </IconButton>
-            </MenuHandler>
+            </MenuHandler> */}
+
+
             {/* <MenuList className="w-max border-0">
               <MenuItem className="flex items-center gap-3">
                 <Avatar

@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
-
+import {VERSION} from "../../config";
 export function SignIn() {
   const gradientStyle = {
     backgroundImage: 'linear-gradient(to right, rgba(33, 33, 33, 1), rgba(33, 33, 33,0.6))',
@@ -56,6 +56,15 @@ export function SignIn() {
           </Button>
           </Link>
           </form>
+        </div>
+        <div className="text-center mt-10" >
+       
+          
+        <Typography variant="paragraph" color="blue-gray" className="text-base font-normal">Powered by Nexgen Innovations
+       </Typography> 
+       <Typography variant="paragraph" color="blue-gray" className="text-sm font-normal">
+      {VERSION}
+       </Typography> 
         </div>
       </div>
     </section>

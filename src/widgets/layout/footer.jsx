@@ -45,10 +45,7 @@ Footer.defaultProps = {
   brandName: "Nexgen Innovations",
   brandLink: "",
   routes: [
-    { name: "Nexgen Innovations", path: "" },
-    { name: "About Us", path: "" },
-    // { name: "Blog", path: "https://www.creative-tim.com/blog" },
-    // { name: "License", path: "https://www.creative-tim.com/license" },
+    { name: "Nexgen Innovations", path: "https://nexgeninnovations.com.au/" },
   ],
 };
 
