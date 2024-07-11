@@ -51,7 +51,7 @@ export function SignIn() {
               />
             </div>
             <Link to="/dashboard/home">
-            <Button className="mt-6" fullWidth>
+            <Button className="mt-6 mb-6" fullWidth>
             Sign In
           </Button>
           </Link>
